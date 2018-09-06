@@ -1,0 +1,6 @@
+error_log
+composer.lock
+ftpsync.settings
+sh.exe.stackdump
+vendor
+node_modules

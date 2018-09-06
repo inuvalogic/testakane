@@ -1,0 +1,1 @@
+halo <?php echo $nama ?>

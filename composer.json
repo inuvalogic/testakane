@@ -1,0 +1,33 @@
+{
+    "name": "inuvalogic/akanewrapper",
+    "description": "Project Wrapper for Akane Framework 3",
+    "keywords": ["akane", "framework", "wrapper"],
+    "homepage": "http://akane.webhade.com/dev",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Webhade Creative",
+            "email": "info@webhade.id",
+            "homepage": "http://webhade.id",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.9",
+        "ext-gd" : "*",
+        "ext-mbstring" : "*",
+        "ext-json" : "*",
+        "ext-filter" : "*",
+        "ext-session" : "*",
+        "inuvalogic/akane3": "dev-develop",
+        "robmorgan/phinx": "^0.6.4"
+    },
+    "autoload" : {
+        "classmap" : ["app/"],
+        "psr-4" : {
+            "Akaneapp\\" : "app/"
+        }
+    }
+}

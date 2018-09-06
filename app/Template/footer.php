@@ -1,0 +1,1 @@
+<?= $this->assetHelper->js('tes.js') ?>
